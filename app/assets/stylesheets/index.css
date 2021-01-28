@@ -93,8 +93,8 @@ flex-direction: column;
 /* =======================
 #General
 ======================= */
-* {margin: 0; padding: 0;}
-body {position: relative; height: 100vh; font-family: 'Cinzel', serif; font-size: 16px;}
+/* * {margin: 0; padding: 0;}
+body {position: relative; height: 100vh; font-family: 'Cinzel', serif; font-size: 16px;} */
 
 
 
@@ -121,7 +121,7 @@ body {position: relative; height: 100vh; font-family: 'Cinzel', serif; font-size
 .slides__img__filter {width: 100%; height: 100%; background-color: #000; position: absolute; top: 0; left: 0; z-index: 10; opacity: 0.3;}
 
 /* #Captions */
-.slide__caption {width: 100%; text-align: center; color: #fff; position: absolute; bottom: 5%; z-index: 20; opacity: 0}
+.slide__caption {width: 100%; text-align: center; color: #fff; position: absolute; bottom: 5%; z-index: 20; opacity: 0; font-family:serif }
 .slide__caption__title {font-size: 3em; line-height: 1.05em;}
 .slide__caption__subtitle {font-size: 2.25em; line-height: 1.25em;}
 .slide__caption__text {font-size: 1.75em; line-height: 1.25em;}
