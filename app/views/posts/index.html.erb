@@ -1,8 +1,11 @@
-<div>
-  <div class="content-wrapper">
+<%# <div>
+  <div class="top-wrapper">
     <h1>JOB START</h1>
-    <p>とよぽん</p>
-    <p>宇田川</p>
+    <p>Get a job change to advance your career</p>
+    <div class = "top-btn">
+      <a href="#">新規登録</a>
+      <a href="#">log in</a>
+    </div>
   </div>
   <div class = "root_list">
      <div>
@@ -18,4 +21,116 @@
      <div>
      </div>
   </div>
+ </div> %>
+    <%# <script>
+      $("document").ready(function(){
+        $('.single-item').slick();
+      }); 
+    </script>
+      
+      <div class="main">
+        <div class="single-item">
+          <div><img src="/assets/businessman-3213659_640.jpg"></div>
+          <div><img src="/assets/businessman-3213659_640.jpg"></div>
+          <div><img src="/assets/businessman-3213659_640.jpg"></div>
+          <div><img src="/assets/businessman-3213659_640.jpg"></div>
+        </div>
+      </div>
+      
+      <style>
+      .main{
+        width:350px;
+        margin-left:50px;
+      }
+      body{
+        background-color:#9B9B9B;
+      }
+      </style> %>
+       <%#<i class="fas fa-arrow-alt-circle-right"></i> %>
+      
+      <%#<div class="previews">
+         <div class="slider">
+            <%= image_tag '/assets/CDF9D9A0-0EC8-4D5F-848F-49D45F49189B.jpeg' %>
+            <%#<%= image_tag '/assets/CDF9D9A0-0EC8-4D5F-848F-49D45F49189B.jpeg'%>
+            <%#<%= image_tag '/assets/CDF9D9A0-0EC8-4D5F-848F-49D45F49189B.jpeg' %>
+        <%#</div>
+      </div>%>
+<div class="container">
+
+  <div class="slider">
+
+    <div class="slides">
+
+      <!--  The last slide goes before the first one,
+        because the slideshow shows the second slide on load by default. -->
+      <div class="slides__img" id="" style="background-image: url('/assets/application-1756282_640.jpg')">
+        <div class="slides__img__filter"></div>
+        <div class="slide__caption">
+         
+            <%= link_to "sign_up", user_registration_path, class:"tanochi" %>
+         
+        </div>
+      </div>
+
+      <div class="slides__img" id="" style="background-image: url('https://source.unsplash.com/1400x900/?forest')">
+        <div class="slides__img__filter"></div>
+        <div class="slide__caption">
+          <h1 class="slide__caption__title">First slide</h1>
+          <h2 class="slide__caption__subtitle">This is the first slide.</h2>
+          <h3 class="slide__caption__text">Lorem ipsum dolor sit amet.</h3>
+        </div>
+      </div>
+
+      <div class="slides__img" id="" style="background-image: url('https://source.unsplash.com/1400x900/?sea')">
+        <div class="slides__img__filter"></div>
+        <div class="slide__caption">
+          <h1 class="slide__caption__title">Second slide</h1>
+          <h2 class="slide__caption__subtitle">This is the second slide.</h2>
+          <h3 class="slide__caption__text">Lorem ipsum dolor sit amet.</h3>
+        </div>
+      </div>
+
+      <div class="slides__img" id="" style="background-image: url('https://source.unsplash.com/1400x900/?sky')">
+        <div class="slides__img__filter"></div>
+        <div class="slide__caption">
+          <h1 class="slide__caption__title">Third slide</h1>
+          <h2 class="slide__caption__subtitle">This is the third slide.</h2>
+          <h3 class="slide__caption__text">Lorem ipsum dolor sit amet.</h3>
+        </div>
+      </div>
+
+      <div class="slides__img" id="" style="background-image: url('https://source.unsplash.com/1400x900/?rocks')">
+        <div class="slides__img__filter"></div>
+        <div class="slide__caption">
+          <h1 class="slide__caption__title">Fourth slide</h1>
+          <h2 class="slide__caption__subtitle">This is the fourth slide.</h2>
+          <h3 class="slide__caption__text">Lorem ipsum dolor sit amet.</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- / slider -->
+
+  <!-- #Controls -->
+  <a class="control fas fa-chevron-left" id="prev"></a>
+  <a class="control fas fa-chevron-right" id="next"></a>
+
+  <!-- #Position dots -->
+  <div class="dots">
+    <span class="dots__single" id=""></span>
+    <span class="dots__single" id=""></span>
+    <span class="dots__single" id=""></span>
+    <span class="dots__single" id=""></span>
+    <span class="dots__single" id=""></span>
+  </div>
+
 </div>
+<!-- / slideshow -->
+
+
+     
+      
+
+ 
