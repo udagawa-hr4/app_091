@@ -1,32 +1,4 @@
-// $(function() {
-//   $('.slider').slick({
-//     prevArrow: '<i class="fas fa-arrow-alt-circle-left"></i>',
-//     nextArrow: '<i class="fas fa-arrow-alt-circle-right"></i>'
-//   })
-// });
-// $(function(){
-//   $('.mypattern').slick({
-//     autoplay: true,
-//     autoplaySpeed: 2500,
-//     speed: 800,
-//     dots: true,
-//     arrows: false,
-//     centerMode: true,
-//     centerPadding: '10%'
-//   });
-// }); 
-// Result Skip Results Iframe
-// EDIT ON
-/**
- * @Author: Andrea Alba
- * @Date:   2018-03-14T21:25:14+01:00
- * @Email:  subjuliodesign [at] gmail.com
- * @Project: Responsive Slideshow with jQuery
- * @Filename: slideshow_final.js
- * @Last modified by:   Andrea Alba
- * @Last modified time: 2018-03-23T13:07:33+01:00
- * @Copyright: subjuliodesign
- */
+
 
 
 
