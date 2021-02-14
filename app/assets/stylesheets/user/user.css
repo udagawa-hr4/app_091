@@ -324,3 +324,15 @@ button{
 .tanomu3 {
   padding-right: 8px;
 }
+
+
+/* プロフィール */
+
+.profile {
+  height: 100%;
+  
+}
+
+.my-profile {
+  height: 50%
+}
