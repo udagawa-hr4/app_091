@@ -45,11 +45,12 @@
 
 ## calendar
 
-| Column  | Type       | Option                       |
-|---------|------------|------------------------------|
-| title   | string     | null:false                   |
-| content | text       |                              |
-| user    | references | null:false,foreign_key: true |
+| Column     | Type       | Option                       |
+|------------|------------|------------------------------|
+| title      | string     | null:false                   |
+| content    | text       | null:false                   |
+| start_time | datetime   | null:false                   |
+| user       | references | null:false,foreign_key: true |
 
 
 ### Association
