@@ -43,6 +43,19 @@
 
 - belongs_to :user
 
+## calendar
+
+| Column  | Type       | Option                       |
+|---------|------------|------------------------------|
+| title   | string     | null:false                   |
+| content | text       |                              |
+| user    | references | null:false,foreign_key: true |
+
+
+### Association
+- belongs_to :user
+
+
 
 
 
